@@ -84,7 +84,7 @@ fn main() {
 
 fn handle_internal_linking(rt: &Runtime) {
     use libimagentrylink::internal::InternalLinker;
-    use libimagentrylink::external::iter::NoExternalIter;
+    use libimagentrylink::external::is_external_link_storeid;
 
     debug!("Handle internal linking call");
     let cmd = rt.cli().subcommand_matches("internal").unwrap();
@@ -99,9 +99,9 @@ fn handle_internal_linking(rt: &Runtime) {
                         e.get_internal_links()
                             .map(|iter| {
                                 if cmd.is_present("list-externals-too") {
-                                    iter
+                                    iter.filter(|_| true)
                                 } else {
-                                    NoExternalIter::new(iter)
+                                    iter.filter(|id| !is_external_link_storeid(&id))
                                 }
                             })
                             .map(|links| {
