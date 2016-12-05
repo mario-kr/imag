@@ -97,7 +97,13 @@ fn handle_internal_linking(rt: &Runtime) {
                 match get_entry_by_name(rt, entry) {
                     Ok(Some(e)) => {
                         e.get_internal_links()
-                            .map(NoExternalIter::new)
+                            .map(|iter| {
+                                if cmd.is_present("list-externals-too") {
+                                    iter
+                                } else {
+                                    NoExternalIter::new(iter)
+                                }
+                            })
                             .map(|links| {
                                 let i = links
                                     .filter_map(|l| {
