@@ -48,10 +48,9 @@ extern crate libimagstorestdhook;
 extern crate libimagutil;
 #[macro_use] extern crate libimagerror;
 
-mod configuration;
-mod logger;
-
 pub mod error;
+pub mod configuration;
+pub mod logger;
 pub mod runtime;
 pub mod setup;
 
