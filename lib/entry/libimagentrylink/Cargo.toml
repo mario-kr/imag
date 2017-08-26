@@ -24,11 +24,11 @@ env_logger = "0.3"
 is-match = "0.1"
 
 [dependencies.libimagstore]
-path = "../libimagstore"
+path = "../../../lib/core/libimagstore"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
 
 [dependencies.libimagutil]
-path = "../libimagutil"
+path = "../../../lib/etc/libimagutil"
 

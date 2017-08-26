@@ -23,20 +23,20 @@ regex = "0.1"
 itertools = "0.5"
 
 [dependencies.libimagstore]
-path = "../libimagstore"
+path = "../../../lib/core/libimagstore"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
-
-[dependencies.libimagutil]
-path = "../libimagutil"
+path = "../../../lib/core/libimagerror"
 
 [dependencies.libimagrt]
-path = "../libimagrt"
+path = "../../../lib/core/libimagrt"
+
+[dependencies.libimagutil]
+path = "../../../lib/etc/libimagutil"
 
 [dependencies.libimagentryedit]
-path = "../libimagentryedit"
+path = "../../../lib/entry/libimagentryedit"
 
 [dependencies.libimagentryview]
-path = "../libimagentryview"
+path = "../../../lib/entry/libimagentryview"
 

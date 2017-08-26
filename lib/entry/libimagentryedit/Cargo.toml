@@ -16,14 +16,14 @@ homepage      = "http://imag-pim.org"
 [dependencies]
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
 
 [dependencies.libimagrt]
-path = "../libimagrt"
+path = "../../../lib/core/libimagrt"
 
 [dependencies.libimagstore]
-path = "../libimagstore"
+path = "../../../lib/core/libimagstore"
 
 [dependencies.libimagutil]
-path = "../libimagutil"
+path = "../../../lib/etc/libimagutil"
 

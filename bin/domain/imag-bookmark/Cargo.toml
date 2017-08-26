@@ -19,20 +19,20 @@ log = "0.3"
 version = "2.0.1"
 
 [dependencies.libimagrt]
-path = "../libimagrt"
-
-[dependencies.libimagutil]
-path = "../libimagutil"
-
-[dependencies.libimagbookmark]
-path = "../libimagbookmark"
+path = "../../../lib/core/libimagrt"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
+
+[dependencies.libimagbookmark]
+path = "../../../lib/domain/libimagbookmark"
 
 [dependencies.libimagentrylink]
-path = "../libimagentrylink"
+path = "../../../lib/entry/libimagentrylink"
 
 [dependencies.libimagentrytag]
-path = "../libimagentrytag"
+path = "../../../lib/entry/libimagentrytag"
+
+[dependencies.libimagutil]
+path = "../../../lib/etc/libimagutil"
 

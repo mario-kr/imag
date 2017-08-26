@@ -20,8 +20,8 @@ crossbeam = "0.2"
 url = "1.2"
 
 [dependencies.libimagstore]
-path = "../libimagstore"
+path = "../../../lib/core/libimagstore"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
 

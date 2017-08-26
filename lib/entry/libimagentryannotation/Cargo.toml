@@ -15,17 +15,17 @@ lazy_static = "0.1.15"
 toml = "^0.4"
 
 [dependencies.libimagstore]
-path = "../libimagstore"
-
-[dependencies.libimagnotes]
-path = "../libimagnotes"
+path = "../../../lib/core/libimagstore"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
+
+[dependencies.libimagnotes]
+path = "../../../lib/domain/libimagnotes"
 
 [dependencies.libimagentrylink]
-path = "../libimagentrylink"
+path = "../../../lib/entry/libimagentrylink"
 
 [dependencies.libimagutil]
-path = "../libimagutil"
+path = "../../../lib/etc/libimagutil"
 

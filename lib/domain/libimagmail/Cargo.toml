@@ -21,11 +21,11 @@ toml = "0.4.*"
 filters = "0.1.*"
 
 [dependencies.libimagstore]
-path = "../libimagstore"
+path = "../../../lib/core/libimagstore"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
 
 [dependencies.libimagref]
-path = "../libimagref"
+path = "../../../lib/entry/libimagentryref"
 

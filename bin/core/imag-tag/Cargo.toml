@@ -21,22 +21,22 @@ semver = "0.2"
 toml = "^0.4"
 
 [dependencies.libimagstore]
-path = "../libimagstore"
+path = "../../../lib/core/libimagstore"
 
 [dependencies.libimagrt]
-path = "../libimagrt"
+path = "../../../lib/core/libimagrt"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
 
 [dependencies.libimagentrytag]
-path = "../libimagentrytag"
+path = "../../../lib/entry/libimagentrytag"
 
 [dependencies.libimagutil]
-path = "../libimagutil"
+path = "../../../lib/etc/libimagutil"
 
 [dev-dependencies.libimagutil]
-path = "../libimagutil"
+path = "../../../lib/etc/libimagutil"
 default-features = false
 features         = ["testing"]
 

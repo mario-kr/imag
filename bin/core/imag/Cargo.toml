@@ -28,8 +28,8 @@ clap = "2.*"
 log = "0.3"
 
 [dependencies.libimagrt]
-path = "../libimagrt"
+path = "../../../lib/core/libimagrt"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
 

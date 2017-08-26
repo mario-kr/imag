@@ -21,18 +21,18 @@ semver = "0.5"
 toml = "^0.4"
 
 [dependencies.libimagstore]
-path = "../libimagstore"
+path = "../../../lib/core/libimagstore"
 default-features = false
 features = ["verify"]
 
 [dependencies.libimagrt]
-path = "../libimagrt"
-
-[dependencies.libimagutil]
-path = "../libimagutil"
+path = "../../../lib/core/libimagrt"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
+
+[dependencies.libimagutil]
+path = "../../../lib/etc/libimagutil"
 
 [features]
 early-panic = [ "libimagstore/early-panic" ]

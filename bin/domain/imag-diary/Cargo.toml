@@ -19,30 +19,30 @@ version = "2.0"
 clap = "2.*"
 log = "0.3"
 
-[dependencies.libimagrt]
-path = "../libimagrt"
-
-[dependencies.libimagdiary]
-path = "../libimagdiary"
-
-[dependencies.libimagentryedit]
-path = "../libimagentryedit"
-
-[dependencies.libimagentrylist]
-path = "../libimagentrylist"
-
 [dependencies.libimagerror]
-path = "../libimagerror"
-
-[dependencies.libimaginteraction]
-path = "../libimaginteraction"
-
-[dependencies.libimagutil]
-path = "../libimagutil"
+path = "../../../lib/core/libimagerror"
 
 [dependencies.libimagstore]
-path = "../libimagstore"
+path = "../../../lib/core/libimagstore"
+
+[dependencies.libimagrt]
+path = "../../../lib/core/libimagrt"
+
+[dependencies.libimagdiary]
+path = "../../../lib/domain/libimagdiary"
+
+[dependencies.libimagentryedit]
+path = "../../../lib/entry/libimagentryedit"
+
+[dependencies.libimagentrylist]
+path = "../../../lib/entry/libimagentrylist"
+
+[dependencies.libimaginteraction]
+path = "../../../lib/etc/libimaginteraction"
+
+[dependencies.libimagutil]
+path = "../../../lib/etc/libimagutil"
 
 [dependencies.libimagtimeui]
-path = "../libimagtimeui"
+path = "../../../lib/etc/libimagtimeui"
 

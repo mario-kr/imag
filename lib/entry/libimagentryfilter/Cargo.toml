@@ -23,8 +23,8 @@ semver = "0.5.*"
 toml = "^0.4"
 
 [dependencies.libimagstore]
-path = "../libimagstore"
+path = "../../../lib/core/libimagstore"
 
 [dependencies.libimagentrytag]
-path = "../libimagentrytag"
+path = "../../../lib/entry/libimagentrytag"
 

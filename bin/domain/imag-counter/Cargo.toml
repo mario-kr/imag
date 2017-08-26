@@ -19,14 +19,14 @@ log = "0.3"
 version = "2.0.1"
 
 [dependencies.libimagrt]
-path = "../libimagrt"
+path = "../../../lib/core/libimagrt"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
 
 [dependencies.libimagutil]
-path = "../libimagutil"
+path = "../../../lib/etc/libimagutil"
 
 [dependencies.libimagcounter]
-path = "../libimagcounter"
+path = "../../../lib/domain/libimagcounter"
 

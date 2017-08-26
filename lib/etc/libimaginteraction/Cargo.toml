@@ -25,14 +25,14 @@ spinner = "0.4"
 rustyline = "1.0"
 
 [dependencies.libimagstore]
-path = "../libimagstore"
-
-[dependencies.libimagentryfilter]
-path = "../libimagentryfilter"
-
-[dependencies.libimagutil]
-path = "../libimagutil"
+path = "../../../lib/core/libimagstore"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
+
+[dependencies.libimagutil]
+path = "../../../lib/etc/libimagutil"
+
+[dependencies.libimagentryfilter]
+path = "../../../lib/entry/libimagentryfilter"
 

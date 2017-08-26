@@ -18,17 +18,17 @@ toml = "0.4.*"
 url = "1.2"
 
 [dependencies.libimagrt]
-path = "../libimagrt"
-
-[dependencies.libimagmail]
-path = "../libimagmail"
+path = "../../../lib/core/libimagrt"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
 
-[dependencies.libimagutil]
-path = "../libimagutil"
+[dependencies.libimagmail]
+path = "../../../lib/domain/libimagmail"
 
 [dependencies.libimagref]
-path = "../libimagref"
+path = "../../../lib/entry/libimagentryref"
+
+[dependencies.libimagutil]
+path = "../../../lib/etc/libimagutil"
 

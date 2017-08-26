@@ -23,22 +23,22 @@ toml-query = "0.1"
 url = "1.2"
 
 [dependencies.libimagstore]
-path = "../libimagstore"
+path = "../../../lib/core/libimagstore"
 
 [dependencies.libimagrt]
-path = "../libimagrt"
-
-[dependencies.libimagentrylink]
-path = "../libimagentrylink"
+path = "../../../lib/core/libimagrt"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
+
+[dependencies.libimagentrylink]
+path = "../../../lib/entry/libimagentrylink"
 
 [dependencies.libimagutil]
-path = "../libimagutil"
+path = "../../../lib/etc/libimagutil"
 
 [dev-dependencies.libimagutil]
-path = "../libimagutil"
+path = "../../../lib/etc/libimagutil"
 default-features = false
 features         = ["testing"]
 

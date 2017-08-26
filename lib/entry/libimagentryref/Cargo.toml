@@ -1,5 +1,5 @@
 [package]
-name = "libimagref"
+name = "libimagentryref"
 version = "0.4.0"
 authors = ["Matthias Beyer <mail@beyermatthias.de>"]
 
@@ -23,14 +23,14 @@ version = "2.0.1"
 walkdir = "1.0.*"
 
 [dependencies.libimagstore]
-path = "../libimagstore"
+path = "../../../lib/core/libimagstore"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
-
-[dependencies.libimagutil]
-path = "../libimagutil"
+path = "../../../lib/core/libimagerror"
 
 [dependencies.libimagentrylist]
-path = "../libimagentrylist"
+path = "../../../lib/entry/libimagentrylist"
+
+[dependencies.libimagutil]
+path = "../../../lib/etc/libimagutil"
 

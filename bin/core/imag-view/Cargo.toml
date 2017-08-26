@@ -21,14 +21,14 @@ toml = "^0.4"
 version = "2.0.1"
 
 [dependencies.libimagstore]
-path = "../libimagstore"
+path = "../../../lib/core/libimagstore"
 
 [dependencies.libimagrt]
-path = "../libimagrt"
+path = "../../../lib/core/libimagrt"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
 
 [dependencies.libimagentryview]
-path = "../libimagentryview"
+path = "../../../lib/entry/libimagentryview"
 

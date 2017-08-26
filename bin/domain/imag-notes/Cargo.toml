@@ -21,20 +21,20 @@ version = "2.0.1"
 itertools = "0.5"
 
 [dependencies.libimagrt]
-path = "../libimagrt"
-
-[dependencies.libimagnotes]
-path = "../libimagnotes"
-
-[dependencies.libimagentryedit]
-path = "../libimagentryedit"
-
-[dependencies.libimagentrytag]
-path = "../libimagentrytag"
+path = "../../../lib/core/libimagrt"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
+
+[dependencies.libimagnotes]
+path = "../../../lib/domain/libimagnotes"
+
+[dependencies.libimagentryedit]
+path = "../../../lib/entry/libimagentryedit"
+
+[dependencies.libimagentrytag]
+path = "../../../lib/entry/libimagentrytag"
 
 [dependencies.libimagutil]
-path = "../libimagutil"
+path = "../../../lib/etc/libimagutil"
 

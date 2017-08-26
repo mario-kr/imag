@@ -19,14 +19,14 @@ toml = "^0.4"
 glob = "0.2"
 
 [dependencies.libimagrt]
-path = "../libimagrt"
+path = "../../../lib/core/libimagrt"
 
 [dependencies.libimagstore]
-path = "../libimagstore"
+path = "../../../lib/core/libimagstore"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
 
 [dependencies.libimagentryedit]
-path = "../libimagentryedit"
+path = "../../../lib/entry/libimagentryedit"
 

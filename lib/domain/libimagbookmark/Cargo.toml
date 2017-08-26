@@ -19,11 +19,11 @@ url = "1.2"
 regex = "0.1"
 
 [dependencies.libimagstore]
-path = "../libimagstore"
+path = "../../../lib/core/libimagstore"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
 
 [dependencies.libimagentrylink]
-path = "../libimagentrylink"
+path = "../../../lib/entry/libimagentrylink"
 

@@ -20,23 +20,23 @@ log = "0.3"
 version = "2.0.1"
 
 [dependencies.libimagstore]
-path = "../libimagstore"
+path = "../../../lib/core/libimagstore"
 
 [dependencies.libimagrt]
-path = "../libimagrt"
-
-[dependencies.libimagref]
-path = "../libimagref"
+path = "../../../lib/core/libimagrt"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
 
-[dependencies.libimaginteraction]
-path = "../libimaginteraction"
+[dependencies.libimagref]
+path = "../../../lib/entry/libimagentryref"
 
 [dependencies.libimagentrylist]
-path = "../libimagentrylist"
+path = "../../../lib/entry/libimagentrylist"
+
+[dependencies.libimaginteraction]
+path = "../../../lib/etc/libimaginteraction"
 
 [dependencies.libimagutil]
-path = "../libimagutil"
+path = "../../../lib/etc/libimagutil"
 

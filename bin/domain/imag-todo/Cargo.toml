@@ -26,13 +26,13 @@ is-match = "0.1.*"
 version = "2.0.1"
 
 [dependencies.libimagrt]
-path = "../libimagrt"
+path = "../../../lib/core/libimagrt"
 
 [dependencies.libimagstore]
-path = "../libimagstore"
-
-[dependencies.libimagtodo]
-path = "../libimagtodo"
+path = "../../../lib/core/libimagstore"
 
 [dependencies.libimagerror]
-path = "../libimagerror"
+path = "../../../lib/core/libimagerror"
+
+[dependencies.libimagtodo]
+path = "../../../lib/domain/libimagtodo"
