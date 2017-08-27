@@ -26,6 +26,6 @@ path = "../../../lib/core/libimagstore"
 [dependencies.libimagerror]
 path = "../../../lib/core/libimagerror"
 
-[dependencies.libimagref]
+[dependencies.libimagentryref]
 path = "../../../lib/entry/libimagentryref"
 

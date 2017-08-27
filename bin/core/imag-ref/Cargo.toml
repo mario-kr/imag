@@ -28,7 +28,7 @@ path = "../../../lib/core/libimagrt"
 [dependencies.libimagerror]
 path = "../../../lib/core/libimagerror"
 
-[dependencies.libimagref]
+[dependencies.libimagentryref]
 path = "../../../lib/entry/libimagentryref"
 
 [dependencies.libimagentrylist]
