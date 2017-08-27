@@ -16,9 +16,9 @@ homepage      = "http://imag-pim.org"
 [build-dependencies]
 clap = ">=2.16.1"
 version = "2.0"
-libimagrt = { path = "../libimagrt" }
-libimagentrytag = { path = "../libimagentrytag" }
-libimagutil = { path = "../libimagutil" }
+libimagrt = { path = "../../../lib/core/libimagrt" }
+libimagentrytag = { path = "../../../lib/entry/libimagentrytag" }
+libimagutil = { path = "../../../lib/etc/libimagutil" }
 
 [dependencies]
 version = "2.0"
