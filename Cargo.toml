@@ -1,7 +1,12 @@
 [workspace]
 members = [
     ".imag-documentation",
-    "bin/core/imag/",
+    "bin/core/imag",
+    "bin/core/imag-link",
+    "bin/core/imag-ref",
+    "bin/core/imag-store",
+    "bin/core/imag-tag",
+    "bin/core/imag-view",
     "bin/domain/imag-bookmark",
     "bin/domain/imag-counter",
     "bin/domain/imag-diary",

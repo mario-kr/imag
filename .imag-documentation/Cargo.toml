@@ -15,75 +15,75 @@ homepage      = "http://imag-pim.org"
 
 [dependencies]
 
-[dependencies.libimagannotation]
-path = "../libimagannotation"
-
 [dependencies.libimagbookmark]
-path = "../../../lib/domain/libimagbookmark"
+path = "../lib/domain/libimagbookmark"
 
 [dependencies.libimagcounter]
-path = "../../../lib/domain/libimagcounter"
+path = "../lib/domain/libimagcounter"
 
 [dependencies.libimagdiary]
-path = "../../../lib/domain/libimagdiary"
+path = "../lib/domain/libimagdiary"
+
+[dependencies.libimagentryannotation]
+path = "../lib/entry/libimagentryannotation"
 
 [dependencies.libimagentrycategory]
-path = "../libimagentrycategory"
+path = "../lib/entry/libimagentrycategory"
 
 [dependencies.libimagentrydatetime]
-path = "../libimagentrydatetime"
+path = "../lib/entry/libimagentrydatetime"
 
 [dependencies.libimagentryedit]
-path = "../libimagentryedit"
+path = "../lib/entry/libimagentryedit"
 
 [dependencies.libimagentryfilter]
-path = "../../../lib/entry/libimagentryfilter"
+path = "../lib/entry/libimagentryfilter"
 
 [dependencies.libimagentrylink]
-path = "../../../lib/entry/libimagentrylink"
+path = "../lib/entry/libimagentrylink"
 
 [dependencies.libimagentrylist]
-path = "../../../lib/entry/libimagentrylist"
+path = "../lib/entry/libimagentrylist"
 
 [dependencies.libimagentrymarkdown]
-path = "../../../lib/entry/libimagentrymarkdown"
+path = "../lib/entry/libimagentrymarkdown"
+
+[dependencies.libimagentryref]
+path = "../lib/entry/libimagentryref"
 
 [dependencies.libimagentrytag]
-path = "../../../lib/entry/libimagentrytag"
+path = "../lib/entry/libimagentrytag"
 
 [dependencies.libimagentrytimetrack]
-path = "../libimagentrytimetrack"
+path = "../lib/entry/libimagentrytimetrack"
 
 [dependencies.libimagentryview]
-path = "../../../lib/entry/libimagentryview"
+path = "../lib/entry/libimagentryview"
 
 [dependencies.libimagerror]
-path = "../../../lib/core/libimagerror"
+path = "../lib/core/libimagerror"
 
 [dependencies.libimaginteraction]
-path = "../../../lib/etc/libimaginteraction"
+path = "../lib/etc/libimaginteraction"
 
 [dependencies.libimagmail]
-path = "../libimagmail"
+path = "../lib/domain/libimagmail"
 
 [dependencies.libimagnotes]
-path = "../../../lib/domain/libimagnotes"
-
-[dependencies.libimagref]
-path = "../../../lib/entry/libimagentryref"
+path = "../lib/domain/libimagnotes"
 
 [dependencies.libimagrt]
-path = "../../../lib/core/libimagrt"
+path = "../lib/core/libimagrt"
 
 [dependencies.libimagstore]
-path = "../../../lib/core/libimagstore"
+path = "../lib/core/libimagstore"
 
 [dependencies.libimagtimeui]
-path = "../../../lib/etc/libimagtimeui"
+path = "../lib/etc/libimagtimeui"
 
 [dependencies.libimagtodo]
-path = "../libimagtodo"
+path = "../lib/domain/libimagtodo"
 
 [dependencies.libimagutil]
-path = "../../../lib/etc/libimagutil"
+path = "../lib/etc/libimagutil"
 

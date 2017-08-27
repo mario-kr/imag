@@ -34,7 +34,7 @@ serde_derive = "1.0"
 path = "../../../lib/core/libimagerror"
 
 [dependencies.libimagutil]
-path = "../../../lib/core/libimagutil"
+path = "../../../lib/etc/libimagutil"
 
 [dev-dependencies]
 tempdir = "0.3.4"
